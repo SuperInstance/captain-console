@@ -1,0 +1,20 @@
+name = "captain-console"
+main = "src/index.ts"
+compatibility_date = "2026-08-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "captain-console-db"
+database_id = "11b60997-cb97-49f1-95dc-8645cdeda793"
+
+[[r2_buckets]]
+binding = "CACHE"
+bucket_name = "captain-console-cache"
+
+[[kv_namespaces]]
+binding = "INDEX"
+id = "dfbc294d445e4e6fbb5f2731246a9340"
+
+[ai]
+binding = "AI"
+CAPTAIN_TOKEN = "c61dc3cdea3ef58087fe5cb2060f74040036422ceffc4fcd"
